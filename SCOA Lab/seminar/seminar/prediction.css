@@ -1,0 +1,10 @@
+body {
+    background-image: url('https://images.pexels.com/photos/1407305/pexels-photo-1407305.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+div{
+    background: rgba(0, 54, 12, 0.589);
+    backdrop-filter: blur(2px);
+    position: relative;
+    margin: 50px auto;
+}

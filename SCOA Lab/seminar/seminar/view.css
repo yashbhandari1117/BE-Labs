@@ -1,0 +1,15 @@
+body {
+    background-image: url('https://images.pexels.com/photos/96715/pexels-photo-96715.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+h1 {
+    background: rgba(0, 0, 0, 0.123);
+    backdrop-filter: blur(2px);
+    position: relative;
+    margin: 50px auto;
+    width: 770px;
+    height: 45px;
+   border-color: #000;
+   border-style: ridge;
+   text-decoration-color: rgb(0, 0, 0);
+}
+
