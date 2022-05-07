@@ -1,0 +1,12 @@
+#finding put the K value
+import math
+no_of_samples = Dataset.shape[0]  #no_of_samples 6
+value_of_K = math.sqrt(no_of_samples) #value_of_K 2.449489743
+print('Suggested value of K: '+str(value_of_K)+' rounded off to '+str(math.ceil(value_of_K)))
+value_of_K = math.ceil(value_of_K)
+
+ch = input('Do you wish to Continue with the suggested value of K? (Y/N):')
+if (ch == 'Y' or ch == 'y'):
+    print('Value of K:'+str(value_of_K))
+else:
+    value_of_K = input('Enter the new value of K:')
